@@ -97,3 +97,11 @@ ul li a:active{
   left: 16px;
   right: 16px;
 }
+
+.contianer{
+  
+}
+
+.right-text{
+  flex: 2;
+}
