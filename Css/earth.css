@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "BBC Reith Sans", Helvetica, Arial, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header{
+  position: relative;
+}
+
+span{
+  /* display: inline-block; */
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-right: 5px;
+  position: relative;
+  top: 30px;
+  left: 550px;
+  cursor: pointer;
+}
+span a{
+  color: #fff;
+}
+
+.btn{
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+}
+
+.btn .btn-1{
+  background-color: #000000;
+  color: #fff;
+}
+
+.btn:hover{
+  background-color: rgb(170, 162, 162) transparent;
+  color: rgb(170, 162, 162);
+  
+}
+
+.line{
+  border-bottom:  rgb(170, 162, 162);
+  margin-top: 50px;
+  width: 100%;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+ul li{
+  display: inline-block;
+  padding: 12px 14px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+a{
+  color: #000;
+  list-style: none;
+}
+
+ul li:hover{
+  background-color: #bfbfbf;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+ul li a:active{
+  border-bottom: 3px solid brown;
+}
+
+.headline{
+  position: relative;
+  top: 20px;
+  left: 70px;
+  font-size: 25px;
+  color:  rgb(184, 0, 0);
+}
+.line3{
+  margin-top: 11px;
+  border-width: 1px;
+  border-color: #000;
+  left: 16px;
+  right: 16px;
+}
+
+.contianer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.right-text{
+  flex: 1;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.image-box{
+  flex: 1;
+}
+
+.image-box img{
+max-width: 100%;
+height: auto;
+margin-top: 30px;
+}
+
+.image-container{
+  display: flex;
+  gap: 16px;
+  flex: 4;
+}
+
+
+
+.main-image {
+  flex: 3; /* Takes up more space */
+  text-align: center;
+}
+
+.main-image img {
+  width: 100%; /* Ensure image takes up all the space */
+  height: auto;
+}
+
+.side-images {
+  flex: 1; /* Takes up less space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.side-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Adds a nice rounded corner to images */
+}
