@@ -134,11 +134,15 @@ margin-top: 30px;
 .main-image {
   flex: 3; /* Takes up more space */
   text-align: center;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .main-image img {
-  width: 100%; /* Ensure image takes up all the space */
-  height: auto;
+  width: 300px;
+  height: 300px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .side-images {
@@ -151,7 +155,7 @@ margin-top: 30px;
 }
 
 .side-images img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px; /* Adds a nice rounded corner to images */
+  width: 200px;
+  height: 100px;
 }
+
